@@ -1,0 +1,18 @@
+{
+  "name": "bulma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css-watch": "node-sass _sass/bulma_styles.scss assets/css/bulma_styles.css -w",
+    "start": "npm run css-watch",
+    "test": "echo \"This is a test.\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.9.2",
+    "node-sass": "^5.0.0"
+  }
+}
