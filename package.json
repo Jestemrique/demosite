@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "css-watch": "node-sass _sass/bulma_styles.scss assets/css/bulma_styles.css -w",
+    "css-watch": "node-sass _sass/main.scss assets/css/styles.css -w",
     "start": "npm run css-watch",
     "test": "echo \"This is a test.\""
   },
