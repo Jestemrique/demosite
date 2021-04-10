@@ -1,5 +1,6 @@
 # Where things are
-destination: # Current-dir/_site
+source: .
+destination: ./_site
 plugins_dir: '_plugins'
 layouts_dir: '_layouts'
 data_dir: '_data'
