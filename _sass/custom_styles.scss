@@ -10,3 +10,19 @@ $page-header-color: #2f4a5c;
 .link {
   border-bottom: 1px dotted $grey-light;
 }
+
+//Image header.
+.image {
+  @include until($desktop) {
+    height: 330px;
+    background-image: url('/assets/images/SanSebastian-mobile.png');
+  }
+  @include from($desktop) {
+    height: 330px;
+    background-image: url('/assets/images/SanSebastian-mobile-up.png');
+  }
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

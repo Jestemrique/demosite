@@ -3865,4 +3865,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus { color: #ee2049 !imp
 
 .link { border-bottom: 1px dotted #b5b5b5; }
 
+.image { background-repeat: no-repeat; background-position: center; background-size: contain; }
+
+@media screen and (max-width: 1023px) { .image { height: 330px; background-image: url("/assets/images/SanSebastian-mobile.png"); } }
+
+@media screen and (min-width: 1024px) { .image { height: 330px; background-image: url("/assets/images/SanSebastian-mobile-up.png"); } }
+
 /*# sourceMappingURL=styles.css.map */
