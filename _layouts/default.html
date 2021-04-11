@@ -9,10 +9,16 @@
 </head>
 
 <body class="has-navbar-fixed-bottom">
+
   {% include navigation.html %}
+
+  <!-- <div class="container"> -->
   {{ content }}
 
+  <!-- </div> -->
+  {% include navigation-mobile.html %}
   <script src="/assets/js/bulma.js"></script>
+
 </body>
 
 </html>

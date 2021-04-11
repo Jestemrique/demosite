@@ -2,42 +2,18 @@
 layout: page
 title: Blog
 ---
-<!-- 
+
 <section class="section pt-4">
+
   {% for post in site.posts %}
-
-
-  <div class="level is-mobile mb-4">
-    <div class="level-left">
-      <div class="level-item">
-        {{post.date | date_to_string}}
-      </div>
+  <div class="columns is-mobile">
+    <div class="column is-one-quarter has-text-right">
+      {{post.date | date_to_string}}
     </div>
-
-
-    <div class="level-right">
-      <div class="level-item">
-        <h3><a href="{{ post.url }}" class="subtitle link is-size-4-mobile">{{ post.title }}</a></h3>
-      </div>
+    <div class="column has-text-left">
+      <h3><a href="{{ post.url }}" class="subtitle link is-size-4-mobile">{{ post.title }}</a></h3>
     </div>
-
-
   </div>
   {% endfor %}
-</section> -->
-
-
-<section class="section pt-4"></section>
-
-{% for post in site.posts %}
-<div class="columns is-mobile">
-  <div class="column is-one-quarter has-text-right">
-    {{post.date | date_to_string}}
-  </div>
-  <div class="column has-text-left">
-    <h3><a href="{{ post.url }}" class="subtitle link is-size-4-mobile">{{ post.title }}</a></h3>
-  </div>
-</div>
-{% endfor %}
 
 </section>

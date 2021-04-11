@@ -1,7 +1,12 @@
+//Pages variables.
+$page-header-color: #2f4a5c;
+
+//Pages' styles
 .page-header-background {
-  background-color: #2f4a5c;
+  background-color: $page-header-color;
 }
 
+//General links
 .link {
   border-bottom: 1px dotted $grey-light;
 }

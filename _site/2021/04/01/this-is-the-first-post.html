@@ -9,7 +9,8 @@
 </head>
 
 <body class="has-navbar-fixed-bottom">
-  <nav class="navbar is-fixed-bottom " role="navigation" aria-label="main navigation">
+
+  <nav class="navbar is-hidden-touch" role="navigation" aria-label="main navigation">
   <div class="navbar-brand  is-clear-fix">
     <a role="button" class="navbar-burger " aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
       <span aria-hidden="true"></span>
@@ -37,24 +38,26 @@
     <div class="navbar-end"></div>
   </div>
 </nav>
+
+  <!-- <div class="container"> -->
   <article class="section">
-    <div class="level mb-3 is-mobile">
-        <div class="level-left">
-            <div class="level-item">
-                <h1 class="title mb-1 is-size-4-mobile">This Is The First Post</h1>
-            </div>
+    <div class="container">
+        <div class="level mb-3 is-mobile">
+    <div class="level-left">
+        <div class="level-item">
+            <h1 class="title mb-1 is-size-4-mobile">This Is The First Post</h1>
         </div>
-        <div class="level-right">
-            <div class="level-item">
-                <p>01 Apr 2021</p>
-            </div>
-        </div>
-
     </div>
-    <hr class="mt-1 mb-4">
+    <div class="level-right">
+        <div class="level-item">
+            <p>01 Apr 2021</p>
+        </div>
+    </div>
 
-    <div class="content">
-        <h2 class="subtitle is-5">Este es el primer post</h2>
+</div>
+<hr class="mt-1 mb-4">
+        <div class="content">
+            <h2 class="subtitle is-5">Este es el primer post</h2>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id nibh quis est egestas laoreet eu a justo. Nulla
     dictum laoreet arcu, a dignissim nunc elementum et. Pellentesque mauris odio, malesuada sed nisl eget, dictum
@@ -80,11 +83,42 @@
     Nunc nec lacinia diam. Proin pellentesque turpis nec felis dictum porttitor. In gravida erat sed ex faucibus semper.
     Suspendisse vel enim a ipsum lacinia viverra at sit amet mi. Lorem ipsum dolor sit amet, consectetur adipiscing
     elit.</p>
+        </div>
     </div>
-
 </article>
 
+  <!-- </div> -->
+  <nav class="navbar is-fixed-bottom is-hidden-desktop" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand  is-clear-fix">
+        <a role="button" class="navbar-burger " aria-label="menu" aria-expanded="false"
+            data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+        </div>
+        
+        <a class="navbar-item has-text-centered" href="/">
+            Home
+        </a>
+        
+        <a class="navbar-item has-text-centered" href="/about.html">
+            About
+        </a>
+        
+        <a class="navbar-item has-text-centered" href="/blog.html">
+            Blog
+        </a>
+        
+        <div class="navbar-end"></div>
+    </div>
+</nav>
   <script src="/assets/js/bulma.js"></script>
+
 </body>
 
 </html>

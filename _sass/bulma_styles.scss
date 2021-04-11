@@ -6,10 +6,7 @@
 
 @import '../node_modules/bulma/sass/utilities/_all.sass';
 
-//Variables
-//Fonts.
-
-//Body
+//Body font
 $family-serif: 'Noticia Text', serif;
 $family-primary: $family-serif;
 $body-font-size: 1.3em;
@@ -18,22 +15,11 @@ $body-color: $grey-dark;
 //Titles and subtitles
 $title-family: 'Exo', sans-serif;
 $title-color: $grey-dark;
-//$title-weight: $weight-light;
 
 $subtitle-family: 'Exo', sans-serif;
 $subtitle-color: $grey-dark;
-//$subtitle-weight: $weight-light;
 
 //Links
 $link: $grey-dark;
-
-//Hero
-//$hero-colors: grey;
-
-//Custom vars.
-
-//End custom vars.
-
-//End variables
 
 @import '../node_modules/bulma/bulma.sass';
